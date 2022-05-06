@@ -11,10 +11,12 @@
         "sourceType": "module"
     },
     "rules": {
-        "no-restricted-syntax":[
+        "no-restricted-syntax": [
             "error",
             "LabeledStatement",
             "WithStatement"
-        ]
+        ],
+        "no-unused-vars": "warn",
+        "no-multiple-empty-lines": "warn"
     }
 }
